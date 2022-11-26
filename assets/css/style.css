@@ -1,0 +1,53 @@
+#header{
+    background-size: cover;
+    background-position-y: 40%;
+    color:white;
+    background-color: rgb(6, 6, 91);
+    background-image: linear-gradient(to left, rgb(6,6,91), rgb(49, 49, 215));
+    position:relative !important;
+}
+
+#search-city{
+    width:80%;
+}
+
+#search-button {
+    background-color: rgb(49, 49, 215);
+}
+
+/* FontAwesome icon */
+#search-button-icon{
+    width:15px;
+    display:inline-block;
+}
+
+.list-group-item.active {
+    background-color: rgb(49, 49, 215);
+}
+
+#current-weather {
+    padding-left: 15px;
+}
+
+.weather-card{
+    width: 9rem;
+    background-color: rgb(49, 49, 215);
+    color: white;
+    text-align: center;
+}
+
+/* Adapability for different screen sizes */
+@media only screen and (max-width: 992px) {
+    #search-city{
+        width:100%;
+    }
+    #search-button{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+
+    #fiveDayForecastUl{
+        justify-content: center;
+    }
+}
