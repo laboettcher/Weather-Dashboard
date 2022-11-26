@@ -34,7 +34,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Links
 
-Github repo:
+Github repo: https://github.com/laboettcher/Weather-Dashboard/tree/main
 
 Deployed url:
 
